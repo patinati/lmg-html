@@ -1,0 +1,124 @@
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li{
+	list-style: none;
+}
+
+nav a{
+	display: block;
+	float: left;
+}
+
+#seite {
+    width: 1200px;
+	font: icon;
+	height: 3000px;
+}
+
+p {
+    color: blueviolet;
+}
+
+
+#inhalt {
+float: right;
+padding: 40px 40px 100px 100px;
+font-size: 20px;
+}
+#lebenslauf {
+    padding-top: 200px;
+}
+
+#bild img{
+    float: left;
+    width: 300px;
+    height: 450px;
+}
+
+#titel p {
+    color: crimson;
+    font-size: 60px;
+    font-weight:bold;
+}
+
+
+.titel2 {
+    font-size: 50px ;
+}
+
+.überschrift {
+    font-size: 40px ;
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+.kontakt-text {
+    font-size: small;
+    text-align: right;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  .navbar a {
+	/* float: left; */
+	/* font-size: 16px; */
+	color: white;
+	/* text-align: center; */
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  .dropdown {
+	float: left;
+	overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+  }
+  
+  ul .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+	background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
