@@ -22,6 +22,9 @@ p {
     color: blueviolet;
 }
 
+#startbild img{
+	width: 1500px;
+	}
 
 #inhalt {
 float: right;
@@ -36,6 +39,10 @@ font-size: 20px;
     float: left;
     width: 300px;
     height: 450px;
+}
+
+#linkbild img{
+	width: 740px;
 }
 
 #titel p {
