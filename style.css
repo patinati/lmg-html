@@ -31,8 +31,9 @@ float: right;
 padding: 40px 40px 100px 100px;
 font-size: 20px;
 }
+
 #lebenslauf {
-    padding-top: 200px;
+    padding-top: 350px;
 }
 
 #bild img{
@@ -77,10 +78,7 @@ body {
   }
   
   .navbar a {
-	/* float: left; */
-	/* font-size: 16px; */
 	color: white;
-	/* text-align: center; */
 	padding: 14px 16px;
 	text-decoration: none;
   }
